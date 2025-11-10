@@ -3,7 +3,6 @@
 
 Aplikasi web interaktif untuk **clustering negara berdasarkan indikator SDGs** menggunakan algoritma **K-Means** dan **DBSCAN**, dengan visualisasi hasil clustering dan opsi preprocessing data.
 
----
 
 ## Deskripsi Proyek
 
@@ -16,7 +15,6 @@ Fitur utama:
 * Visualisasi cluster 2D menggunakan PCA
 * Download hasil clustering dalam format CSV
 
----
 
 ## Teknologi dan Tools
 
@@ -27,7 +25,6 @@ Fitur utama:
 * **Matplotlib, Seaborn** – visualisasi
 * **Joblib** – menyimpan model (opsional)
 
----
 
 ## Instalasi
 
@@ -52,7 +49,6 @@ source venv/bin/activate # Linux/Mac
 pip install -r requirements.txt
 ```
 
----
 
 ## Cara Menjalankan Aplikasi
 
@@ -70,8 +66,6 @@ Untuk menjalankan script testing / preprocessing / clustering secara langsung:
 python test_run.py
 ```
 
----
-
 ## Fitur
 
 * Upload file CSV atau Excel berisi data negara dan indikator SDGs
@@ -81,7 +75,6 @@ python test_run.py
 * Visualisasi cluster 2D menggunakan PCA
 * Download hasil clustering sebagai CSV
 
----
 
 ## Struktur Folder
 
@@ -96,18 +89,12 @@ my-project/
 └─ README.md
 ```
 
----
 
 ## Cara Penggunaan
 
-1. Upload dataset CSV atau Excel
+1. Upload dataset Excel
 2. Pilih opsi preprocessing sesuai kebutuhan
 3. Atur parameter K-Means (`jumlah cluster`) dan DBSCAN (`eps`, `min_samples`)
 4. Lihat hasil clustering dan visualisasi
 5. Download file CSV hasil clustering
 
----
-
-Kalau mau, aku bisa sekalian buat **versi README yang lebih “portfolio-ready”** seperti milik temanmu, lengkap dengan **deskripsi proyek, tujuan, algoritma yang digunakan, contoh tampilan visualisasi, dan screenshot**.
-
-Apakah mau aku buatkan versi itu juga?
