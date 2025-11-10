@@ -39,8 +39,8 @@ cd my-project
 
 ```bash
 python -m venv venv
-venv\Scripts\activate   # Windows
-source venv/bin/activate # Linux/Mac
+venv\Scripts\activate   
+source venv/bin/activate 
 ```
 
 3. Install dependensi:
@@ -81,11 +81,11 @@ python test_run.py
 ```
 my-project/
 │
-├─ app.py              # Streamlit web app
-├─ test_run.py         # Script testing preprocessing dan clustering
-├─ data/               # Dataset SDGs
-├─ src/                # Modul preprocessing dan clustering
-├─ requirements.txt    # Daftar dependensi
+├─ app.py              
+├─ test_run.py         
+├─ data/               
+├─ src/                
+├─ requirements.txt    
 └─ README.md
 ```
 
